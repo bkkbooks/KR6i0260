@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0260/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0260/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說如來獨證自誓三昧經
+  identifiers:
+    krp: KR6i0260
+    cbeta: T15n0623
+    cbeta_old_id: T15n0623
+    authorityid: CA0002654
+    json_key: T0623
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0623.xml
+    old_id: T15n0623
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0260_000-T.yaml, hash: 'sha256:8e8571a025b2c61b7b4980fd6c0019fa7d2a2828f5a849be1f6da5bc023ed6d0'}
+  - {seq: 1, filename: KR6i0260_001-T.yaml, hash: 'sha256:100dae4aaffe48c70e6b6bb24945c610d5f70f42a412289f68edf906d2b1f6a3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0260_000-T.markers.yaml, hash: 'sha256:bf841b3216c9a16b022e4904aaff1ba321262117c0cbfa3ac234b779266d9632'}
+  - {seq: 1, role: markers, filename: assets/KR6i0260_001-T.markers.yaml, hash: 'sha256:f5adf2a236bfc261f9ea0eb4f31ff0809e19386c19946e0e88b61977790ae8b6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0260_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2992
+  label: 佛說如來獨證自誓三昧經
+  type: juan
+  level: 1
+hash: sha256:dace2cd6d0d3b106d8db0019fa583c2e7b3959bf9af7d7b2d8d9cebc33e1b14c
