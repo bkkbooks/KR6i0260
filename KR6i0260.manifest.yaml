@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0260/v1
 canonical_location: https://kanripo.org/bkk/KR6i0260/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說如來獨證自誓三昧經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0260_000.yaml, hash: 'sha256:8e8571a025b2c61b7b4980fd6c0019fa7d2a2828f5a849be1f6da5bc023ed6d0'}
-  - {seq: 1, filename: KR6i0260_001.yaml, hash: 'sha256:100dae4aaffe48c70e6b6bb24945c610d5f70f42a412289f68edf906d2b1f6a3'}
+  - {seq: 1, filename: KR6i0260_001.yaml, hash: 'sha256:5ff37411c71ae1de78bc7d169e5f2fbe6826e95bcf8f412c16b0cf6e29cc3984'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0260_000.markers.yaml, hash: 'sha256:bab2652f00c36dfd710352aa97f987125dea45080b3ba9f4edb64669a0bf9351'}
-  - {seq: 1, role: markers, filename: assets/KR6i0260_001.markers.yaml, hash: 'sha256:4580d178da825556ca3260a7b26fe7b2330b4f7c6f44e5e108a74039500ca204'}
+  - {seq: 1, role: markers, filename: assets/KR6i0260_001.markers.yaml, hash: 'sha256:4300fa17fd7953238877caf66731dd3906c0f3c040832490f6e970dafa2ab5e7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說如來獨證自誓三昧經
   type: juan
   level: 1
-hash: sha256:38e982ffd20c5f823bd376e02512b6f26ca4f78efab0cbed9d1b78e0f9ee4346
+hash: sha256:53da3548a5289cd60e668a1ddc1e62994b227d0a4d1eba1891546b1fc0fc710e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
